@@ -10,8 +10,12 @@
   .hero-heading {
     margin-bottom: 53px;
     max-width: 500px;
+    @include media-breakpoint-down('sm') {
+      line-height: 46px;
+    }
   }
   @media screen and (max-width: 1024px) {
+    padding: 100px 0;
     margin-bottom: 360px;
     .row {
       position: absolute;
