@@ -11,7 +11,7 @@ const common = {
   output: {
     path: path.resolve('dist/'),
     filename: '[name].js',
-    publicPath: '/',
+    publicPath: './',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
