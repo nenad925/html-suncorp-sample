@@ -1,0 +1,13 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+strong {
+  font-weight: $font-weight-medium;
+}
+
+b {
+  font-weight: $font-weight-semibold;
+}

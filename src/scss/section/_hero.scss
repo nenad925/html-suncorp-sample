@@ -1,0 +1,21 @@
+.section-hero {
+  border-top: 5px solid $success;
+  padding: 140px 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  @include media-breakpoint-down('md') {
+    background-position: right;
+  }
+  .hero-heading {
+    margin-bottom: 53px;
+    max-width: 500px;
+  }
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 360px;
+    .row {
+      position: absolute;
+      bottom: -320px;
+    }
+  }
+}
